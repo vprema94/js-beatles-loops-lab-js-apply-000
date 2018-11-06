@@ -32,7 +32,6 @@ function johnLennonFacts(facts) {
 function iLoveTheBeatles(n) {
   var arr = [ ];
   var i=0;
-  if n<15 {
     do {
       const str = "I love the Beatles!"
       arr.push(str);
@@ -40,5 +39,4 @@ function iLoveTheBeatles(n) {
       m = (15-n)
     }
     while (i<m)
-  }
 }
