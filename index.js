@@ -31,13 +31,13 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(n) {
   var arr = [ ];
-  var i=0;
+  var n = 0;
+
+  for (i=0; i<n; i++) {
     do {
       const str = "I love the Beatles!"
       arr.push(str);
-      i++
-      var m = (15-n)
+      while (n<15)
     }
-    while (i<m)
+  }
 }
-console.log(arr)
