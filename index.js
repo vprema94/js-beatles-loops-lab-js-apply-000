@@ -30,15 +30,12 @@ function johnLennonFacts(facts) {
 }
 
 function iLoveTheBeatles(n) {
-  var arr = [ ];
-  var n = 0;
-
-  for (i=0; i<n; i++) {
+  let arr = []; 
     do {
-      const str = "I love the Beatles!"
-      arr.push(str);
-      while (n<15)
-    }
-  }
+      arr.push(`I love the Beatles!`);
+      n++; 
+      } 
+      while (n < 15);
+      return arr; 
 }
     
