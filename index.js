@@ -36,7 +36,7 @@ function iLoveTheBeatles(n) {
       const str = "I love the Beatles!"
       arr.push(str);
       i++
-      m = (15-n)
+      var m = (15-n)
     }
     while (i<m)
 }
