@@ -39,4 +39,5 @@ function iLoveTheBeatles(n) {
       var m = (15-n)
     }
     while (i<m)
+    console.log(arr)
 }
