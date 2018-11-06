@@ -28,3 +28,17 @@ function johnLennonFacts(facts) {
   }
   return jlfacts
 }
+
+function iLoveTheBeatles(n) {
+  var arr = [ ];
+  var i=0;
+  if n<15 {
+    do {
+      const str = "I love the Beatles!"
+      arr.push(str);
+      i++
+      m = (15-n)
+    }
+    while (i<m)
+  }
+}
