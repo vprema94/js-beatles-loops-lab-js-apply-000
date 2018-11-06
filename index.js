@@ -41,4 +41,3 @@ function iLoveTheBeatles(n) {
     while (i<m)
 }
 console.log(arr)
-
