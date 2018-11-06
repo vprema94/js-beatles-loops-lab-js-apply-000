@@ -19,11 +19,10 @@ var facts = [
 ]
 
 function johnLennonFacts(facts) {
-  let jlfacts = [ ];
-  while (let i=0; fact.length>i; i++){
+  var jlfacts = [ ];
+  while (var i=0; fact.length>i; i++){
     const str = facts[i] + " !!!";
     jlfacts.push(str);
   }
   return jlfacts
 }
-
