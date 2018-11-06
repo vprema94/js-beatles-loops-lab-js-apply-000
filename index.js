@@ -21,9 +21,10 @@ var facts = [
 function johnLennonFacts(facts) {
   var jlfacts = [ ];
   var i=0;
-  while (fact.length>i; i++){
+  while (fact.length>i){
     const str = facts[i] + " !!!";
     jlfacts.push(str);
+    i++
   }
   return jlfacts
 }
